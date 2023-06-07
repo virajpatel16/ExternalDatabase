@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:elevation="@dimen/_10sdp"
+    android:layout_margin="@dimen/_16sdp"
+    app:cardElevation="@dimen/_20sdp"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:gravity="center"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:id="@+id/txtshayri"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+    android:text="तमन्ना करते हो जिन खुशियों की\n,दुआ है वह खुशिया आपके कदमो मे हो\n,\nखुदा आपको वह सब हक़ीक़त मे दे\n,जो कुछ आपके सपनो में हो."/>
+
+    <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+
+       >
+        <ImageView
+            android:id="@+id/audio"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/audio"
+            android:layout_alignParentRight="true"
+
+            />
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/send"
+
+
+
+            />
+    </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
